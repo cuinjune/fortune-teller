@@ -8,7 +8,7 @@ The assignment was to create something with Dialogflow, including fulfillment an
 
 I basically followed the example from the class but tried to create a stand-alone app with it.
 
-I deployed the app on [Glitch](https://cuinjune-fortune-teller-app.glitch.me/) but it currently doesn't work because of an authentication issue.  
+I deployed the app on [Glitch](https://fortune-teller-app.glitch.me/) but it currently doesn't work because of an authentication issue.  
 It works perfectly fine using a local server though.
 
 ## Example dialog
