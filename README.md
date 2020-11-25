@@ -1,5 +1,5 @@
 # fortune-teller
-A fortune teller app using Dialogflow and Firebase.
+<img src="screenshot.png" alt="screenshot" width="1000"/>
 
 ## Description
 
