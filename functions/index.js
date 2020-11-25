@@ -5,6 +5,17 @@ const functions = require("firebase-functions");
 const Sentiment = require("sentiment");
 const sentiment = new Sentiment();
 
+// credentials
+const admin = require("firebase-admin");
+
+const serviceAccount = require("./fortune-teller-jsty-firebase-adminsdk-govjn-eb63ac68db.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://fortune-teller-jsty.firebaseio.com"
+});
+
+// dialogflow
 const app = dialogflow({ debug: true });
 
 app.intent("Default Welcome Intent", (conv) => {
