@@ -27,8 +27,9 @@ Computer: "You're gonna have a horrible life!"
 
 ## Thoughts
 
-For this project, my goal was to learn how to setup a stand-alone voice-assistant app using Dialogflow, Firebase, and Node.js.  
-It was pretty painful to setup the project and I still need to fix the authentication problem when the app is deployed to Glitch. But I got the basic idea of how things work together.    
+For this project, my goal was to learn how to setup a stand-alone voice-assistant app using Dialogflow, Firebase, and Node.js.
+It was pretty painful to setup the project and I still need to fix the authentication problem when the app is deployed to Glitch. 
+But I got the basic idea of how things work together.
 In the future, I would like to develop a more advanced project than this simple class example.
 
 ## Setup
