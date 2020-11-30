@@ -33,7 +33,10 @@ app.listen(PORT, () => {
 app.post("/api/v1/text", async (req, res) => {
 
     // Create a new session
-    const sessionClient = new dialogflow.SessionsClient();
+    const sessionClient = new dialogflow.SessionsClient({
+        keyFilename:
+            './fortune-teller-jsty-firebase-adminsdk-govjn-eb63ac68db.json'
+    });
     const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
 
     // The text query request.
