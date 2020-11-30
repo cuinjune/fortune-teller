@@ -29,7 +29,6 @@ app.listen(PORT, () => {
     console.log(`Server is running localhost on port: ${PORT}`)
 });
 
-// add a note to data
 app.post("/api/v1/text", async (req, res) => {
 
     // Create a new session
