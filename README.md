@@ -1,5 +1,5 @@
 # fortune-teller
-A fortune teller app using Dialogflow and Firebase.
+<img src="screenshot.png" alt="screenshot" width="1000"/>
 
 ## Description
 
@@ -9,7 +9,7 @@ The assignment was to create something with Dialogflow, including fulfillment an
 I basically followed the example from the class but tried to create a stand-alone app with it.
 
 I deployed the app on [Glitch](https://fortune-teller-app.glitch.me/) but it currently doesn't work because of an authentication issue.  
-It works perfectly fine using a local server though.
+It works perfectly fine in a local server though.
 
 ## Example dialog
 The user can communicate with the computer using voice.
